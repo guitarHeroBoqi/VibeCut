@@ -1,0 +1,20 @@
+# VibeCut - AI 全自动视频制片 Agent
+# Python >= 3.11
+
+# LangGraph & LangChain
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# MoviePy（VM 内剪辑脚本使用）
+moviepy>=1.0.3
+imageio[ffmpeg]>=2.34.0
+imageio-ffmpeg>=0.5.1
+
+# 异步 HTTP & 文件 IO
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+
+# 工具支持
+python-dotenv>=1.0.0

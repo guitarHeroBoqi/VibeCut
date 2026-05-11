@@ -1,0 +1,23 @@
+# 环境变量（含 API Key，禁止上传）
+.env
+
+# Python 虚拟环境
+.venv/
+
+# 生成的时间戳素材目录（运行产物，体积大）
+assets/2*/
+
+# 保留 BGM 和 legacy 样例素材
+!assets/bgm/
+!assets/legacy/
+
+# 输出成片
+output/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS 系统文件
+.DS_Store
